@@ -1,4 +1,4 @@
-# Is it me you're looking for?
+# encoding: UTF-8
 class Cher
 	def 💕
 		
