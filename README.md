@@ -3,7 +3,17 @@ Don't you wish you could write like [@cher](https://twitter.com/cher)? I often d
 
 ## To run cher
 Assuming you have ruby on your system, jump into your terminal, cd to the folder where you put `cher.rb` and type
-`ruby cher.rb`. When prompted, type what you want to say and the program will translate it for you.
+`ruby cher.rb` and follow the instructions.
+
+
+You can also invoke the script followed by a sentence, like this:
+
+`ruby cher.rb "I send you love, but I can't hide my feelings, or make them what they're not. I Get In Trouble, but I don't care, stand up and be counted or sit down and be nothing"` or if there are no pesky apostrophes, `ruby cher.rb hi mum`
+
+Either way, the program will translate the sentence for you and copy it to your clipboard:
+
+>  ✨ EITHER WAY, theℹ️ PROGRAM WILL🕦 TRANSLATE the👇 SENTENCE🏙 FOR🐀 YOU  💕 ✨ AND👨‍👩‍👦‍👦 COPY📠 IT😝 TO📶 YOUR🏠 clipboard🎪  💕
+
 
 ## The future
 There are some plans for including word substitions and abbreviations, that might happen some day. If you want to contribute, pull requests are welcome.
