@@ -2,11 +2,15 @@
 class Cher
 	def 💕
 		
-		puts emoji + "  THERE'S ONLY" + emoji + " LOVE&FEAR 
-  💯 SAY💬 someTHING ⁉️🙋"
-		str = gets.chomp
-		system("clear")
-		
+		puts emoji + "  THERE'S ONLY" + emoji + " LOVE&FEAR "
+    if(ARGV.count > 0) then
+      str = ARGV.join(" ")
+    else
+      puts "💯 SAY💬 someTHING ⁉️🙋"
+      str = gets.chomp
+      system("clear")
+		end
+
 		words = str.split(" ")
 		output = ''
 		words.each do |word|
@@ -31,11 +35,11 @@ class Cher
 "
 
 		
-		puts "COPY 💕 2 📋 CLIPBOARD ⁉️💬 Y/N"
- 	     	reply = gets.chomp 
-      		if reply.upcase == "Y"
+#		puts "COPY 💕 2 📋 CLIPBOARD ⁉️💬 Y/N"
+# 	     	reply = gets.chomp 
+#      		if reply.upcase == "Y"
     		    pbcopy(output)
-			end
+#			end
 	end
 
 	def pbcopy(input)
